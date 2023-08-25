@@ -27,6 +27,10 @@ Ya dentro del directorio instala Cypress a través de npm:
 Esto instalará Cypress localmente como una dependencia de desarrollo para tu proyecto.
 Asegúrate de haber ejecutado ```npm init``` o de tener una carpeta ```node_modules``` o un archivo ```package.json``` en la raíz de tu proyecto para asegurarte de que Cypress se instale en el directorio correcto.
 
+Instalar el paquete de cypress real events:
+
+```npm install cypress-real-events```
+
 Por defecto, las pruebas se ejecutan en modo "headless" (sin interfaz gráfica). Para ejecutar las pruebas en la consola con interfaz gráfica, utiliza el siguiente comando:
 
 ``` npx cypress run --spec cypress/e2e/login-spec.cy.js --headed```
